@@ -1,7 +1,7 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const contract = await ethers.deployContract("StringSaver");
+  const contract = await ethers.deployContract("FungibleToken");
   await contract.waitForDeployment();
   console.log(
     `deployed to ${contract.target}`

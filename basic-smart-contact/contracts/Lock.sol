@@ -2,7 +2,7 @@
 pragma solidity ^0.8.9;
 
 
-contract StringSsaver {
+contract StringSaver {
       string public data;
 
           function setData(string memory _data) public payable {
